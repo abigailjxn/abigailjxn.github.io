@@ -1,0 +1,88 @@
+/* Colors 
+#FEE3ED
+#C8B7D0
+#3E4A6C
+#96A5CE
+#C2D4ED
+#D8F4F4 */
+
+.menu {
+  
+}
+
+#socialmenu {
+  position: relative;
+  left: 0;
+  z-index: 100;
+  padding: 1em;
+  align-content: center;
+  height: 100%;
+  width: 6em;
+
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 250;
+  font-style: normal;
+}
+
+#box {
+  height: 10em;
+  width: 30em;
+  background-color: #d8f4f4;
+  position: absolute;
+  top: 3em;
+  left: 0em;
+  margin: 3em 20em 0em 30em;
+  z-index: 0;
+}
+
+#line {
+  width: 38em;
+  height: 0.2em;
+  background-color: black;
+  margin-left: 20em;
+  margin-top: 3.5em;
+  border-radius: 100%;
+}
+
+#headline {
+  position: absolute;
+  top: 4em;
+  left: 12em;
+  font-family: essonnes-headline, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 3em;
+}
+
+#photoslideshow {
+    position: absolute;
+    left: 35em;
+    top: 12em;
+
+}
+
+#photo1 {
+    /* height: 50%; */
+    width: 75%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 6em;
+  z-index: 1;
+}
+
+#footermenu {
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    font-size: 1.3em;
+    letter-spacing: .1em;
+}
+
+#footer-item {
+    padding: 0 1em;
+}
+
+
