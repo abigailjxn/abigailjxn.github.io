@@ -35,6 +35,26 @@
   z-index: 0;
 }
 
+#box1 {
+  height: 2em;
+  width: 2em;
+  background-color: black;
+  position: absolute;
+  top: 25em;
+  left: 34em;
+  z-index: 1000000;
+}
+
+#box2 {
+  position: absolute;
+  top: 38em;
+  left: 70em;
+  height: 4em;
+  width: 10em;
+  background-color: #3E4A6C;
+  z-index: 1000000;
+}
+
 #line {
   width: 38em;
   height: 0.2em;
@@ -68,6 +88,7 @@
     position: absolute;
     left: 35em;
     top: 12em;
+  
 
 }
 
