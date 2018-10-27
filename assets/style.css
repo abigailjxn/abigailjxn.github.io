@@ -51,7 +51,7 @@
   left: 70em;
   height: 4em;
   width: 10em;
-  background-color: #3E4A6C;
+  background-color: black;
   z-index: 1000000;
 }
 
@@ -112,6 +112,10 @@
   font-size: 2.2em;
   
   
+}
+
+#aboutphoto {
+  display: inline-block;
 }
 
 footer {
