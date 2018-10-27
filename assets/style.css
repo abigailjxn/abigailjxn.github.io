@@ -41,7 +41,17 @@
   background-color: black;
   margin-left: 20em;
   margin-top: 3.5em;
-  border-radius: 100%;
+  /* border-radius: 100%; */
+}
+
+#line1 {
+  width: 0.2em;
+  height: 15em;
+  background-color: black;
+  /* border-radius: 100%; */
+  position: absolute;
+  top: 10em;
+  left: 17em;
 }
 
 #headline {
@@ -51,7 +61,7 @@
   font-family: essonnes-headline, serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 3em;
+  font-size: 3.2em;
 }
 
 #photoslideshow {
@@ -64,6 +74,23 @@
 #photo1 {
     /* height: 50%; */
     width: 75%;
+}
+
+#bio {
+  position: absolute;
+  left: 6em;
+  top:35em;
+  opacity: .5;
+  width: 25em;
+}
+
+#headline-name {
+  font-family: essonnes-headline, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2.2em;
+  
+  
 }
 
 footer {
