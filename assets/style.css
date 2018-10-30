@@ -22,7 +22,8 @@
 
 #home-img {
   margin-top: 5em;
-  margin-left: 0em;
+  margin-right: 0em;
+  /* right: 0; */
 }
 
 #box {
@@ -69,10 +70,9 @@
   width: 0.2em;
   height: 15em;
   background-color: black;
-  /* border-radius: 100%; */
   position: absolute;
-  top: 10em;
-  left: 17em;
+  top: 12em;
+  left: 10em;
 }
 
 #headline {
@@ -101,7 +101,7 @@
 #bio {
   position: absolute;
   /* left: 6em; */
-  top:35em;
+  top:37em;
   opacity: .5;
   /* width: 25em; */
   align-content: left;
