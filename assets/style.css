@@ -6,15 +6,11 @@
 #C2D4ED
 #D8F4F4 */
 
-.menu {
-  
-}
-
 #socialmenu {
   position: relative;
   left: 0;
   z-index: 100;
-  padding: 1em;
+  padding: 0em 1em 1em 1em;
   align-content: center;
   height: 100%;
   width: 6em;
@@ -22,6 +18,11 @@
   font-family: mr-eaves-modern, sans-serif;
   font-weight: 250;
   font-style: normal;
+}
+
+#home-img {
+  margin-top: 5em;
+  margin-left: 0em;
 }
 
 #box {
@@ -76,8 +77,8 @@
 
 #headline {
   position: absolute;
-  top: 4em;
-  left: 12em;
+  top: 2em;
+  left: 2.5em;
   font-family: essonnes-headline, serif;
   font-weight: 400;
   font-style: italic;
@@ -99,10 +100,12 @@
 
 #bio {
   position: absolute;
-  left: 6em;
+  /* left: 6em; */
   top:35em;
   opacity: .5;
-  width: 25em;
+  /* width: 25em; */
+  align-content: left;
+
 }
 
 #headline-name {
