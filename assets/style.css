@@ -6,7 +6,10 @@
 #C2D4ED
 #D8F4F4 */
 
-#socialmenu, #photo-links, .ui.cards, #footermenu {
+#socialmenu,
+#photo-links,
+.ui.cards,
+#footermenu {
   font-family: mr-eaves-modern, sans-serif;
   font-weight: 250;
   font-style: normal;
@@ -22,46 +25,6 @@
 #home-img {
   margin-top: 5em;
   margin-right: 0em;
-}
-
-#box {
-  height: 10em;
-  width: 30em;
-  background-color: #d8f4f4;
-  position: absolute;
-  top: 3em;
-  left: 0em;
-  margin: 3em 20em 0em 30em;
-  z-index: 0;
-}
-
-#box1 {
-  height: 2em;
-  width: 2em;
-  background-color: black;
-  position: absolute;
-  top: 25em;
-  left: 34em;
-  z-index: 1000000;
-}
-
-#box2 {
-  position: absolute;
-  top: 38em;
-  left: 70em;
-  height: 4em;
-  width: 10em;
-  background-color: black;
-  z-index: 1000000;
-}
-
-#line {
-  width: 38em;
-  height: 0.2em;
-  background-color: black;
-  margin-left: 20em;
-  margin-top: 3.5em;
-  /* border-radius: 100%; */
 }
 
 #line1 {
@@ -82,43 +45,44 @@
   font-style: italic;
   font-size: 3.2em;
 }
-/* 
-#photoslideshow {
-    position: absolute;
-    left: 35em;
-    top: 12em;
-} */
 
 #photo1 {
-    /* height: 50%; */
-    width: 75%;
+  /* height: 50%; */
+  width: 75%;
 }
 
 #bio {
   position: absolute;
   /* left: 6em; */
-  top:37em;
-  opacity: .5;
+  top: 37em;
+  opacity: 0.5;
   /* width: 25em; */
   align-content: left;
-
 }
 
-#headline-name, #about-headline {
+#headline-name,
+#about-headline {
   font-family: essonnes-headline, serif;
   font-weight: 400;
   font-style: italic;
   font-size: 2.2em;
-  
 }
 
 #about-headline {
   font-size: 1.4em;
 }
 
+#about-text {
+  margin-top: 2.7em;
+}
+
+#about-photo {
+  margin-top: 3em;
+}
+
 #photo-links {
   font-size: 1.8em;
-  letter-spacing: .03em;
+  letter-spacing: 0.03em;
 }
 
 .ui.cards {
@@ -135,32 +99,34 @@ footer {
 }
 
 #footermenu {
-    font-size: 1.3em;
-    letter-spacing: .1em;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
 }
 
 #footer-item {
-    padding: 0 1em;
+  padding: 0 1em;
 }
 
-@media screen and (min-device-width: 1200px){
+@media screen and (min-device-width: 1200px) {
   header {
     display: none;
-  };
-  
+  }
 }
 
-@media screen and (max-device-width: 1200px){
+@media screen and (max-device-width: 1200px) {
   .bg-light {
-    background-color: white!important;
+    background-color: white !important;
     border-bottom: 1px solid grey;
     font-family: mr-eaves-modern, sans-serif;
     font-weight: 250;
     font-style: normal;
     font-size: 1.3em;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
   }
-  #socialmenu, footer, #line1 {
+  #socialmenu,
+  footer,
+  #line1,
+  #emptycolumn {
     display: none;
   }
 
@@ -177,5 +143,12 @@ footer {
     position: relative;
     left: 0;
     top: 0;
+  }
+
+  #about-text {
+    margin: 0;
+  }
+  #about-photo {
+    margin-top: 0;
   }
 }
