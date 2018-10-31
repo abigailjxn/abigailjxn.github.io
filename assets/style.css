@@ -1,11 +1,3 @@
-/* Colors 
-#FEE3ED
-#C8B7D0
-#3E4A6C
-#96A5CE
-#C2D4ED
-#D8F4F4 */
-
 #socialmenu,
 #photo-links,
 .ui.cards,
@@ -44,11 +36,6 @@
   font-weight: 400;
   font-style: italic;
   font-size: 3.2em;
-}
-
-#photo1 {
-  /* height: 50%; */
-  width: 75%;
 }
 
 #bio {
