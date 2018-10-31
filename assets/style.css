@@ -151,4 +151,8 @@ footer {
   #about-photo {
     margin-top: 0;
   }
+
+  .ui.three.stackable.cards, .ui.special.cards {
+    justify-content: center;
+  }
 }
