@@ -124,6 +124,10 @@
   letter-spacing: .03em;
 }
 
+.ui.cards {
+  margin: 1em;
+}
+
 footer {
   position: fixed;
   bottom: 0;
