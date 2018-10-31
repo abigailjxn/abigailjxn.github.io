@@ -116,7 +116,13 @@
   
 }
 
-
+#photo-links {
+  font-family: mr-eaves-modern, sans-serif;
+  font-weight: 250;
+  font-style: normal;
+  font-size: 1.8em;
+  letter-spacing: .03em;
+}
 
 footer {
   position: fixed;
