@@ -114,15 +114,12 @@
   font-style: italic;
   font-size: 2.2em;
   
-  
 }
 
-#aboutphoto {
-  display: inline-block;
-}
+
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 6em;
   z-index: 1;
