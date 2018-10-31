@@ -143,4 +143,39 @@ footer {
     padding: 0 1em;
 }
 
+@media screen and (min-device-width: 1200px){
+  header {
+    display: none;
+  };
+  
+}
 
+@media screen and (max-device-width: 1200px){
+  .bg-light {
+    background-color: white!important;
+    border-bottom: 1px solid grey;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    font-size: 1.3em;
+    letter-spacing: .1em;
+  }
+  #socialmenu, footer, #line1 {
+    display: none;
+  }
+
+  #home-img {
+    margin-top: 0;
+  }
+
+  #headline {
+    left: 1em;
+    font-size: 1.7em;
+  }
+
+  #bio {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+}
