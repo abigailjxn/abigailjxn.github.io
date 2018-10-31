@@ -6,24 +6,22 @@
 #C2D4ED
 #D8F4F4 */
 
-#socialmenu {
-  position: relative;
-  left: 0;
-  z-index: 100;
-  padding: 0em 1em 1em 1em;
-  align-content: center;
-  height: 100%;
-  width: 6em;
-
+#socialmenu, #photo-links, .ui.cards, #footermenu {
   font-family: mr-eaves-modern, sans-serif;
   font-weight: 250;
   font-style: normal;
 }
 
+#socialmenu {
+  z-index: 100;
+  padding: 0em 1em 1em 1em;
+  height: 100%;
+  width: 6em;
+}
+
 #home-img {
   margin-top: 5em;
   margin-right: 0em;
-  /* right: 0; */
 }
 
 #box {
@@ -84,14 +82,12 @@
   font-style: italic;
   font-size: 3.2em;
 }
-
+/* 
 #photoslideshow {
     position: absolute;
     left: 35em;
     top: 12em;
-  
-
-}
+} */
 
 #photo1 {
     /* height: 50%; */
@@ -108,7 +104,7 @@
 
 }
 
-#headline-name {
+#headline-name, #about-headline {
   font-family: essonnes-headline, serif;
   font-weight: 400;
   font-style: italic;
@@ -116,19 +112,18 @@
   
 }
 
+#about-headline {
+  font-size: 1.4em;
+}
+
 #photo-links {
-  font-family: mr-eaves-modern, sans-serif;
-  font-weight: 250;
-  font-style: normal;
   font-size: 1.8em;
   letter-spacing: .03em;
 }
 
 .ui.cards {
   margin: 1em;
-  font-family: mr-eaves-modern, sans-serif;
   font-weight: 600;
-  font-style: normal;
   font-size: 1.1em;
 }
 
@@ -140,9 +135,6 @@ footer {
 }
 
 #footermenu {
-    font-family: mr-eaves-modern, sans-serif;
-    font-weight: 250;
-    font-style: normal;
     font-size: 1.3em;
     letter-spacing: .1em;
 }
