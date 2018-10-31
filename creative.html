@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <!-- RESPONSIVE BOOTSTRAP NAVBAR -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white">
             <a class="navbar-brand" href="index.html">
@@ -46,8 +47,9 @@
             </div>
         </nav>
     </header>
-
+    <!-- MAIN CONTENT -->
     <div class="ui grid">
+        <!-- DESKTOP SOCIAL MEDIA MENU -->
         <div class="one wide computer column">
             <div id="socialmenu" class="ui vertical text menu">
                 <div id="logo" class="header item">
@@ -66,6 +68,7 @@
                 </a>
             </div>
         </div>
+
         <div id="emptycolumn" class="three wide computer column">
             <div class="ui basic text segment" style="margin-top: 3em; align-content: center">
                 <!-- <div id="photo-links" class="ui link list">
@@ -76,7 +79,7 @@
                 </div> -->
             </div>
         </div>
-
+        <!-- PHOTOS -->
         <div class="four wide computer column tablet only mobile only sixteen wide column">
             <div class="ui basic segment">
                 <div class="ui medium images">
@@ -112,37 +115,33 @@
                 </div>
             </div>
 
-        <!-- </div> -->
+            <!-- FOOTER MENU -->
+            <footer>
+                <div id="footermenu" class="ui text menu">
+                    <a id="footer-item" class="item" href="./about.html">
+                        ABOUT
+                    </a>
+                    <a id="footer-item" class="item" href="./developer.html">
+                        DEVELOPER
+                    </a>
+                    <a id="footer-item" class="item" href="./designer.html">
+                        DESIGNER
+                    </a>
+                    <a id="footer-item" class="item" href="./creative.html">
+                        CREATIVE
+                    </a>
+                </div>
+            </footer>
 
+            <!-- JQUERY -->
+            <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+            <!-- BOOTSTRAP JS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                crossorigin="anonymous"></script>
 
-
-
-        <footer>
-            <div id="footermenu" class="ui text menu">
-                <a id="footer-item" class="item" href="./about.html">
-                    ABOUT
-                </a>
-                <a id="footer-item" class="item" href="./developer.html">
-                    DEVELOPER
-                </a>
-                <a id="footer-item" class="item" href="./designer.html">
-                    DESIGNER
-                </a>
-                <a id="footer-item" class="item" href="./creative.html">
-                    CREATIVE
-                </a>
-            </div>
-        </footer>
-
-        <!-- JQUERY -->
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-        <!-- BOOTSTRAP JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
-
-        <!-- <script>
+            <!-- <script>
             const menuitem = $(".item");
             const portraits = $("#portraits");
             const travel = $("#travel");
