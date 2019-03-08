@@ -26,7 +26,7 @@
   width: 15em;
   background-color: #96A5CE;
   position: absolute;
-  top: 6.3em;
+  top: 5.3em;
   left: 3em;
   z-index: 0;
 }
@@ -36,9 +36,13 @@
   width: 15em;
   background-color: #96A5CE;
   position: absolute;
-  top: 1.1em;
+  top: 5.3em;
   left: 3em;
   z-index: 0;
+}
+
+#scs-logo {
+  margin-bottom: 2em;
 }
 
 #socialmenu {
@@ -198,8 +202,15 @@ footer {
 }
 
 @media only screen and (max-width: 760px) {
+  .designer-header {
+    margin: 2em .5em;
+  }
   #chicago-stories-img, #second-city-img {
     margin: 0 3rem;
-
+  }
+  #scs-logo {
+    margin: auto;
+    width: 200px;
+    height: auto;
   }
 }
