@@ -196,3 +196,10 @@ footer {
     justify-content: center;
   }
 }
+
+@media only screen and (max-width: 760px) {
+  #chicago-stories-img, #second-city-img {
+    margin: 0 3rem;
+
+  }
+}
