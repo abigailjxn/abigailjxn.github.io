@@ -12,7 +12,9 @@
 }
 
 .designer-header {
-  font-family: mr-eaves-modern, sans-serif;
+  /* font-family: mr-eaves-modern, sans-serif;
+   */
+  font-family: essonnes-headline, serif;
   font-weight: 400;
   font-style: normal;
 
@@ -23,7 +25,7 @@
 
 .header-background {
   height: 2em;
-  width: 18em;
+  width: 23em;
   background-color: #96A5CE;
   position: absolute;
   top: 5.3em;
